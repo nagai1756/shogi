@@ -1,1 +1,1 @@
-# shogi
+#  Japanese shogi
