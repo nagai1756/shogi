@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>将棋</title>
+</head>
+<body>
+    <div id="restartBtn" class="hide">クリックするとスタート画面に戻ります</div>
+    <table id="board"></table>
+    <h2></h2>
+    <table id="upInHandBoard" class="InHand">
+        <tr id="upInBoardTr">
+            <td class="inHandTitle">上の持ち駒</td>
+        </tr>
+    </table>
+    <table id="downInHandBoard" class="InHand">
+        <tr id="downInBoardTr">
+            <td class="inHandTitle">下の持ち駒</td>
+        </tr>
+    </table>
+    <a href="https://www.shogi-rule.com/" target="_blank" rel="noopener noreferrer">参考にしたサイト</a>
+    <script src="main.js"></script>
+    <script src="piece.js"></script>
+    <script src="inHand.js"></script>
+</body>
+</html>
